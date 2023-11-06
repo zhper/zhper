@@ -1,0 +1,45 @@
+<mxfile host="65bd71144e">
+    <diagram id="sdOhtXi0Apvx0klmCXcq" name="第 1 页">
+        <mxGraphModel dx="768" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="105" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="[categroy]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="190" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="是各类文章的集合，如 学习笔记、生活趣事、奇闻怪谈" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="180" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="[slug]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="415" y="275" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="就是某种分类的某一篇文章" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="展示分类的主界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="90.00000000000006" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

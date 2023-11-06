@@ -1,0 +1,6 @@
+.noteContainer {
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: 49% 49%;
+
+}

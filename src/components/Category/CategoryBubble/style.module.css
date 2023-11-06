@@ -1,0 +1,11 @@
+.categoryBubbleItem {
+    height: 24px;
+    border-radius: 12px;
+    border: 1px solid #bfbfbf;
+    padding: 0 12px;
+    margin: 0 5px 5px 0;
+    color: #bfbfbf;
+    font-size: 12px;
+    line-height: 24px;
+    cursor: pointer;
+}

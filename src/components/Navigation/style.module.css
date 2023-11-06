@@ -1,0 +1,38 @@
+.header {
+    position: fixed;
+    width: 100vw;
+    height: 7vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    text-transform: uppercase;
+    /*text-transform 属性控制文本的大小写。*/
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+.header .navUL {
+    display: flex;
+    align-items: center;
+}
+
+
+.navUL a {
+    margin: 0 1vw;
+    font-size: 1vw;
+}
+
+.navUL a:hover,
+.header a:active {
+    color: hsl(265, 19%, 58%);
+    /* hsl 表示 色相、饱和度和明度 */
+}

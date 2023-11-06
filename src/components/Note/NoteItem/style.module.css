@@ -1,0 +1,43 @@
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoryBubbleItem {
+    height: 24px;
+    border-radius: 12px;
+    border: 1px solid #bfbfbf;
+    padding: 0 12px;
+    margin: 0 5px 5px 0;
+    color: #bfbfbf;
+    font-size: 12px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.excerpt {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #a3a3a3;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.date {
+    margin-top: 10px;
+    align-self: flex-end;
+    font-size: 12px;
+    font-family: Lora, Times New Roman, serif;
+    color: #a3a3a3;
+}
