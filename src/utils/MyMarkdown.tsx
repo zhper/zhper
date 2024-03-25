@@ -2,8 +2,11 @@
 import React, { useRef, useState, useEffect, forwardRef } from 'react'
 import Markdown from 'react-markdown'
 import Image from 'next/image'
+//@ts-ignore
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+//@ts-ignore
 import { coldarkCold, darcula, oneLight } from 'react-syntax-highlighter/dist/esm/styles/prism'
+//@ts-ignore
 import { github, googlecode, atomOneDark, monoBlue, vs, githubGist } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import rehypeHighlight from 'rehype-highlight'
 import remarkGfm from 'remark-gfm'
