@@ -18,6 +18,39 @@ export const fileToNoteMap = new Map([
     ['javascript', 'javascript'],
     ['nextjs', 'nextjs'],
     ['react', 'react'],
-    ['reactNew', 'reactNew'],
+    ['react学习笔记', 'reactNew'],
     ['webpack', 'webpack'],
+])
+
+export const slugTofileMap = new Map([
+    ['computerNetwork', '计算机网络'],
+    ['mianjing', '面经'],
+    ['modular', '模块化'],
+    ['handwriting', '手写'],
+    ['axios', 'axios'],
+    ['css', 'css'],
+    ['html', 'html'],
+    ['http', 'http'],
+    ['javascript', 'js'],
+    ['nextjs', 'nextjs'],
+    ['react', 'react'],
+    ['reactNew', 'react学习笔记'],
+    ['webpack', 'webpack'],
+])
+
+export const labelToName = new Map([
+    ['computerNetwork', '计算机网络'],
+    ['mianjing', '面经'],
+    ['modular', '模块化'],
+    ['shouxie', '手写'],
+    ['axios', 'axios'],
+    ['css', 'css'],
+    ['html', 'html'],
+    ['http', 'http'],
+    ['js', 'javaScript'],
+    ['nextjs', 'nextjs'],
+    ['react', 'react'],
+    ['webpack', 'webpack'],
+    ['bagu', '八股'],
+
 ])

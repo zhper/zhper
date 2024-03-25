@@ -1,10 +1,11 @@
 ---
-title: "Getting Started with NextJS"
+title: "axios"
 date: "2022-10-16"
 image: getting-started-nextjs.png
-excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSRdawdadadawdawdawdwadawdawddwdawdawdawdawdawdawdawdawdawdawdawddawdawdawd.
+excerpt: axios的笔记
 isFeatured: true
 slug: axios
+category: ['axios', 'bagu']
 ---
 
 

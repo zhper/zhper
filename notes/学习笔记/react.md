@@ -1,10 +1,11 @@
 ---
-title: "Getting Started with NextJS"
+title: "react"
 date: "2022-10-16"
 image: getting-started-nextjs.png
-excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSRdawdadadawdawdawdwadawdawddwdawdawdawdawdawdawdawdawdawdawdawddawdawdawd.
+excerpt: 这是早些时候为了面试准备的 react 的笔记
 isFeatured: true
 slug: react
+category: ['react', 'bagu']
 ---
 
 
@@ -516,11 +517,9 @@ const node = this.myRef.current
 
 完整生命周期：
 
-![img](https://blog.yucohny.vercel.app/images/react/7.png)
 
 常用生命周期：
 
-![img](https://blog.yucohny.vercel.app/images/react/8.png)
 
 
 
@@ -1340,7 +1339,6 @@ export default ContextClassDemo
 
 
 
-![img](https://blog.yucohny.vercel.app/images/react/1.png)
 
 
 
@@ -1492,7 +1490,6 @@ class ContextClassDemo extends React.Component {
 
 运行代码后，打开 DevTools 中的 Components，可以看到如下的组件关系：
 
-![img](https://blog.yucohny.vercel.app/images/react/2.png)
 
 在 Context 对象上挂载 `displayName` 字符串，该字符串为在 DevTools 中展示的 Context 对象名称：
 
@@ -1502,7 +1499,6 @@ const context = React.createContext('light')
 context.displayName = 'theme'
 ```
 
-![img](https://blog.yucohny.vercel.app/images/react/3.png)
 
 
 
@@ -1624,7 +1620,6 @@ class App extends React.Component {
 
 
 
-![img](https://blog.yucohny.vercel.app/images/react/4.png)
 
 
 
@@ -1642,7 +1637,6 @@ const Demo = React.forwardRef(DemoRef)
 
 
 
-![img](https://blog.yucohny.vercel.app/images/react/5.png)
 
 
 
@@ -1662,7 +1656,6 @@ const Demo = React.forwardRef(DemoRef)
 
 
 
-![img](https://blog.yucohny.vercel.app/images/react/6.png)
 
 
 

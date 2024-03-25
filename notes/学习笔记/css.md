@@ -1,10 +1,11 @@
 ---
-title: "Getting Started with NextJS"
+title: "CSS"
 date: "2022-10-16"
 image: getting-started-nextjs.png
-excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSRdawdadadawdawdawdwadawdawddwdawdawdawdawdawdawdawdawdawdawdawddawdawdawd.
+excerpt: css的笔记
 isFeatured: true
 slug: css
+category: ['css', 'bagu']
 ---
 
 ```js
@@ -35,6 +36,18 @@ ReactDOM.render(
 * [ ] task list
 * [x] checked item
 
+<div>
+<span>zzz</span>
+</div>
+
+<blockquote> 👆 Use the toggle above to add the plugin. </blockquote>
+
+
+<code>dawdawdwdw
+</code>
+zz
+
+zzs
 
 # 单位
 
@@ -42,8 +55,8 @@ ReactDOM.render(
 
 绝对单位、精确的像素
 
-
-
+* dd
+  * zzz
 * em
 
 相对单位
@@ -186,10 +199,6 @@ body {
 
 
 
-![img](https://blog.yucohny.vercel.app/images/CSS/Position/1.png)
-
-
-
 现在我们对 box1 添加相对定位，并让他进行一定的偏移：
 
 ```css
@@ -202,8 +211,6 @@ body {
 ```
 
 
-
-![img](https://blog.yucohny.vercel.app/images/CSS/Position/2.png)
 
 
 
@@ -583,8 +590,6 @@ CSS3 中的盒模型有以下两种：**标准盒模型**、**IE（替代）盒�
 在表格中，我们可以使用 `text-align` 与 `vertical-align` 分别实现水平与垂直方向上的居中，而 `display: table-cell` 属性则可以将元素设置为具有表格单元格元素的特性， 
 
 注意，如果子元素是行内块元素，同时设置了宽高，那么里面的文本将会按照基线对齐
-
-![image-20230227162523079](C:\Users\zzzzp\AppData\Roaming\Typora\typora-user-images\image-20230227162523079.png)
 
 
 

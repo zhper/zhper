@@ -2,9 +2,10 @@
 title: webpack
 date: "2022-10-16"
 image: getting-started-nextjs.png
-excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSRdawdadadawdawdawdwadawdawddwdawdawdawdawdawdawdawdawdawdawdawddawdawdawd.
+excerpt: 学习 webpack 的笔记
 isFeatured: true
 slug: webpack
+category: ['webpack','bagu']
 ---
 
 

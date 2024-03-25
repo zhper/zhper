@@ -1,6 +1,27 @@
 .container {
     padding: 15px;
+    overflow: auto;
+    /* height: 100vh; */
+    width: 75%;
 }
+
+
+/* .container::-webkit-scrollbar {
+
+    display: none
+} */
+
+/* .container::-webkit-scrollbar {
+    margin-top: 7vh;
+    width: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px;
+} */
+
+
 
 .noteContainer {
     display: flex;
@@ -10,5 +31,25 @@
 .divider {
     margin-top: 20px;
     padding-top: 20px;
-    border-top: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf59;
+}
+
+.pageNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pageNav div {
+    font-size: 14px;
+    padding: 15px 25px;
+    font-weight: 700;
+    border: 1px solid #bfbfbf59;
+}
+
+.pageNav div:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #0085a1;
+    border: 1px solid #0085a1;
 }

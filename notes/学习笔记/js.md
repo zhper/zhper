@@ -1,12 +1,15 @@
 ---
-title: "Getting Started with NextJS"
+title: "JavaScipt"
 date: "2022-10-16"
 image: getting-started-nextjs.png
-excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSRdawdadadawdawdawdwadawdawddwdawdawdawdawdawdawdawdawdawdawdawddawdawdawd.
+excerpt: JavaScript 的笔记
 isFeatured: true
 slug: javascript
+category: ['js', 'bagu']
 ---
 
+
+# 数据类型
 
 # 数据类型
 
@@ -3540,7 +3543,7 @@ const request = new XMLHttpRequest()
 
 （1）HTTP 请求方法。可以是 `GET`、`POST` 以及其他服务器支持的方法，但是要注意，这些方法需要保证大写。
 
-（2）目的地的 URL。由于 [同源策略](https://blog.yucohny.vercel.app/computer-network/same-origin-policy) 的限制，默认不能向非同源进行请求。
+（2）目的地的 URL。由于 同源策略 的限制，默认不能向非同源进行请求。
 
 （3）第三个参数是可选参数，设置该请求是否是异步请求。如果为 `true`（默认值），即开启异步。
 
@@ -4416,7 +4419,6 @@ import { default as myAge } from './demo.js'
 ```
 
 也可以不使用 `default` 关键字与大括号，但是此时导入的变量名就固定为导出时的变量名：
-
 ```js
 import age from './demo.js'
 ```

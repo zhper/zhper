@@ -1,25 +1,12 @@
 .title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
     cursor: pointer;
 }
 
-.category {
+.label {
     display: flex;
-    flex-wrap: wrap;
-}
-
-.categoryBubbleItem {
-    height: 24px;
-    border-radius: 12px;
-    border: 1px solid #bfbfbf;
-    padding: 0 12px;
-    margin: 0 5px 5px 0;
-    color: #bfbfbf;
-    font-size: 12px;
-    line-height: 24px;
-    cursor: pointer;
 }
 
 .excerpt {
@@ -37,7 +24,8 @@
 .date {
     margin-top: 10px;
     align-self: flex-end;
-    font-size: 12px;
+    font-size: 14px;
+    font-style: italic;
     font-family: Lora, Times New Roman, serif;
     color: #a3a3a3;
 }

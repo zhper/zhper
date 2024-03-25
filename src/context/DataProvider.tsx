@@ -6,29 +6,33 @@ import { dirToCategoryMap } from '@/utils/getFIleAndData'
 export const dataContext = createContext([])
 
 export default function DataProvider({ children }) {
-  const [allData, setAllData] = useState({})
+  const [allFiles, setAllFiles] = useState()
+  const [allLabels, setAllLabels] = useState()
+
   async function loadData() {
-    const resCategory = await fetch(`/api/getAllCategory`, {
-      method: 'GET',
+
+    const allFiles = await fetch(`/api/getAllFiles`, {
+      method: 'POST',
+      body: JSON.stringify({ category: '学习笔记' })
     })
-    const allCategory = (await resCategory.json()).data
-    const data = await Promise.all(allCategory.map(async (category) => {
-      const res = await fetch(`/api/getAllNoteData`, {
-        method: 'POST',
-        body: JSON.stringify({ category: dirToCategoryMap.get(category) })
-      })
-      return { category, allNotes: (await res.json()).data.allNotesData }
-    }))
-    return data
+    const allLabels = await fetch('/api/getLabel', {
+      method: 'POST',
+    })
+    return {
+      allFiles: (await allFiles.json()).data,
+      allLabels: (await allLabels.json()).data
+    }
   }
   useEffect(() => {
     (async function () {
-      setAllData(await loadData())
+      const { allFiles, allLabels } = await loadData()
+      setAllFiles(allFiles)
+      setAllLabels(allLabels)
     })()
   }, [])
 
   return (
-    <dataContext.Provider value={{ allData, setAllData }}>
+    <dataContext.Provider value={{ allFiles, allLabels }}>
       {children}
     </dataContext.Provider>
   )

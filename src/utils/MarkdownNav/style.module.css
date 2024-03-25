@@ -1,0 +1,69 @@
+.container {
+    /* float: left; */
+    position: sticky;
+    top: 10vh;
+    left: 20px;
+    /* overflow: scroll; */
+    height: 80vh;
+    width: 18%;
+    margin-top: 10vh;
+    margin-right: 7%;
+    background-color: #fff;
+    transition: transform .5s ease;
+}
+
+
+
+.containerNav {
+    height: 100%;
+    overflow: scroll;
+}
+
+.hidden {
+    transform: translate(calc(-100% - 20px));
+}
+
+.hiddenBtn {
+    transform: translate(35.36px);
+}
+
+.titleH2 {
+    text-indent: 1em;
+}
+
+
+.containerNav::-webkit-scrollbar {
+
+    /* display: none */
+    /* background: #ccc;
+    border-radius: 5px; */
+}
+
+.toggleBtn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    cursor: pointer;
+    background-color: hsla(0, 0%, 100%, .6);
+    color: #ff7300;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 11px;
+    border-radius: 5px;
+    /* transform: translate(_, 50%); */
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .1);
+    transition: all .5s ease;
+    /* background-color .3s ease; */
+    z-index: 99;
+}
+
+
+.containerNav::-webkit-scrollbar {
+    margin-top: 7vh;
+    width: 10px;
+}
+
+.containerNav::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px;
+}

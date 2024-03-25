@@ -1,0 +1,36 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 57vh;
+}
+
+.bgImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    height: 57vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+.note h1 {
+    font-size: 80px;
+}
+
+.note h2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+}

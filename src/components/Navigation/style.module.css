@@ -1,14 +1,21 @@
-.header {
+.nav {
     position: fixed;
     width: 100vw;
     height: 7vh;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
     top: 0;
     left: 0;
+    transition: 0.3s linear;
+    z-index: 99;
+}
+
+.hide {
+    top: -65px;
+    transition: 0.3s linear;
 }
 
 .logo {
@@ -17,12 +24,13 @@
     font-size: 1.5vw;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
-    color: black;
+
 }
 
-.header .navUL {
+.nav .navUL {
     display: flex;
     align-items: center;
+
 }
 
 
@@ -31,8 +39,21 @@
     font-size: 1vw;
 }
 
+
+.nav a {
+    /* color: ; */
+}
+
+.navTop {
+    background-color: transparent;
+}
+
+.navTop a {
+    color: white;
+}
+
 .navUL a:hover,
-.header a:active {
-    color: hsl(265, 19%, 58%);
+.nav a:active {
+    color: #deab8a;
     /* hsl 表示 色相、饱和度和明度 */
 }
