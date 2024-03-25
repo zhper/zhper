@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState, useRef, useEffect } from 'react'
-import MarkdownNavbar from 'markdown-navbar';
 import styles from './style.module.css'
 import { Anchor } from 'antd';
 // import 'markdown-navbar/dist/navbar.css';
