@@ -36,23 +36,23 @@ export function getAllNotesData(category: string) {
     const notesFile = getCategoryAllNotes(category)
     const notesData = notesFile.map(item => getNoteData(category, item))
 
-    const sortedNotes = notesData.sort((a, b) => a.date - b.date)
+    const sortedNotes = notesData.sort((a: any, b: any) => a.date - b.date)
     return sortedNotes
 }
 
 export function getNoteDataByArr(arr: []) {
     const notesData = arr.map(item => getNoteData('学习笔记', item))
-    const sortedNotes = notesData.sort((a, b) => a.date - b.date)
+    const sortedNotes = notesData.sort((a: any, b: any) => a.date - b.date)
     return sortedNotes
 }
 
 export function categorify() {
-    const categorySet = {}
+    const categorySet: any = {}
     const categoryName = '学习笔记'
     const noteFiles = getCategoryAllNotes(categoryName)
     noteFiles.map(item => {
-        const { category } = getNoteData(categoryName, item)
-        category.map(val => {
+        const { category }: any = getNoteData(categoryName, item)
+        category.map((val: any) => {
             if (!categorySet.hasOwnProperty(val)) {
                 categorySet[val] = [item]
             } else {

@@ -3,12 +3,12 @@
 import React, { useEffect, useState, forwardRef } from 'react'
 import style from './style.module.css'
 import Link from 'next/link'
-export default function Navigation(props) {
+export default function Navigation(props: any) {
 
     const [isShow, setIsShow] = useState(false)
     const [isTop, setIsTop] = useState(false)
     let lastScrollTop = 0;
-    const handleScroll = (e) => {
+    const handleScroll = (e: any) => {
 
         let scrollTop = document.documentElement.scrollTop; //滚动条滚动高度
         if (scrollTop === 0) setIsTop(true)

@@ -7,10 +7,10 @@ import next from 'next'
 import { Pagination } from 'antd'
 import { useParams } from 'next/navigation'
 
-export default function NoteBox({ category = 'studynotes', label = true, fileList = [] }) {
-    let arr = []
+export default function NoteBox({ category = 'studynotes', label = true, fileList = [] }: any) {
+    let arr: any[] = []
     if (label) {
-        const { slug } = useParams()
+        const { slug }: any = useParams()
         arr = fileList[slug]
     } else arr = fileList
 

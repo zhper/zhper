@@ -5,10 +5,10 @@ import MarkdownNavbar from 'markdown-navbar';
 import styles from './style.module.css'
 import { Anchor } from 'antd';
 // import 'markdown-navbar/dist/navbar.css';
-export default function MarkdownNav({ children, titles }) {
+export default function MarkdownNav({ children, titles }: any) {
     const [ishidden, setIshidden] = useState(false)
 
-    const handleClickFun = (e, link) => {
+    const handleClickFun = (e: any, link: any) => {
         e.preventDefault();
         if (link.href) {
             // 找到锚点对应得的节点
@@ -34,7 +34,7 @@ export default function MarkdownNav({ children, titles }) {
                     onClick={handleClickFun}
                     affix={false}
                     items={
-                        titles.map(t => (
+                        titles.map((t: any) => (
                             {
                                 key: t.id,
                                 className: styles[`title${t.type}`],

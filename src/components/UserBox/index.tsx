@@ -6,7 +6,7 @@ import Link from 'next/link'
 import styles from './style.module.css'
 import CategoryBubble from '../LabelBubble'
 
-export default function UserBox({ labels }) {
+export default function UserBox({ labels }: any) {
     return (
         <div className={styles.container}>
             <div className={`${styles.box} divider`}>
