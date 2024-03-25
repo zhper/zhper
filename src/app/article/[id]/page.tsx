@@ -50,7 +50,7 @@ export default function Slug() {
 
     const addAnchor = () => {
         if (isRend.current === 1) return
-        let ele = mkRef.current
+        let ele: any = mkRef.current
         console.log('dwad', ele)
         let eid = 0
         let titles = []
