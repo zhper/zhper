@@ -22,7 +22,7 @@ interface Idata {
 }
 
 export default function Slug() {
-    const [note, setNote] = useState()
+    const [note, setNote] = useState<any>()
     const [categorySet, setCategorySet] = useState()
     const { id } = useParams()
     const [titles, setTitles] = useState([])
@@ -53,7 +53,7 @@ export default function Slug() {
         let ele: any = mkRef.current
         console.log('dwad', ele)
         let eid = 0
-        let titles = []
+        let titles: any = []
         if (ele) {
             isRend.current = 1
             for (const e of ele.childNodes) {

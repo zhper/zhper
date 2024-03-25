@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './style.module.css'
 import { labelToName } from '@/utils/getFIleAndData'
-export default function Header({ src, welcome = undefined, detail = undefined }) {
+export default function Header({ src, welcome = undefined, detail }: { src: any, welcome?: any, detail?: any }) {
     return (
         <header className={`${styles.header} ${detail && styles.articleHeight}`}>
             <Image

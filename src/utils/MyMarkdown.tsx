@@ -16,11 +16,11 @@ import 'github-markdown-css'
 
 //不能使用 rehype-highlight 这个插件，不然会有奇怪的问题
 
-export default forwardRef(function MyMarkdown(props, mkRef) {
+export default forwardRef(function MyMarkdown(props: any, mkRef: any) {
 
     const customComponents = {
 
-        img(image) {
+        img(image: any) {
             const src = image.src
             // console.log('czz', image)
             return (
@@ -33,7 +33,7 @@ export default forwardRef(function MyMarkdown(props, mkRef) {
                 />
             )
         },
-        code(props) {
+        code(props: any) {
             const { children, className, node, ...rest } = props
             // console.log(String(children).replace(/\n$/, ''), '\n', children)
             const match = /language-(\w+)/.exec(className || '')
@@ -53,7 +53,7 @@ export default forwardRef(function MyMarkdown(props, mkRef) {
         },
 
     }
-    const handleClickFun = (e, link) => {
+    const handleClickFun = (e: any, link: any) => {
         // e.preventDefault();
         if (link.href) {
             // 找到锚点对应得的节点

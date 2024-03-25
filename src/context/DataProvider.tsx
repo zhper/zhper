@@ -3,11 +3,11 @@
 import React, { createContext, useState, useEffect, useRef } from 'react'
 import { dirToCategoryMap } from '@/utils/getFIleAndData'
 
-export const dataContext = createContext([])
+export const dataContext = createContext<any>([])
 
-export default function DataProvider({ children }) {
-  const [allFiles, setAllFiles] = useState()
-  const [allLabels, setAllLabels] = useState()
+export default function DataProvider({ children }: any) {
+  const [allFiles, setAllFiles] = useState<any>()
+  const [allLabels, setAllLabels] = useState<any>()
 
   async function loadData() {
 
