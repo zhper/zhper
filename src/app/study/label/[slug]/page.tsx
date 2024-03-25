@@ -9,8 +9,8 @@ import UserBox from '@/components/UserBox'
 import { labelToName } from '@/utils/getFIleAndData'
 import NoteBox from '@/components/Note'
 export default function Label() {
-    const { slug } = useParams()
-    const { allLabels } = useContext(dataContext)
+    const { slug }: any = useParams()
+    const { allLabels }: any = useContext(dataContext)
 
     if (!allLabels) return <div>loading</div>
     return (
